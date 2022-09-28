@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "in-this-house-bot",
   "version": "1.0.0",
   "description": "A bot that spits out a meme",
   "main": "bot.js",
@@ -7,9 +7,10 @@
   "dependencies": {
     "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
     "discord.js": "^14.5.0",
+    "dotenv": "^16.0.2",
+    "getenv": "^1.0.0",
     "winston": "^3.8.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "test"
   },
