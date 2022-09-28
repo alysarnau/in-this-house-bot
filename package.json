@@ -1,0 +1,17 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "A bot that spits out a meme",
+  "main": "bot.js",
+  "author": "alysvolatile",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^14.5.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "license": "ISC"
+}
