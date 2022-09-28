@@ -1,7 +1,6 @@
 const Discord = require('discord.io');
 const logger = require('winston');
 require('dotenv').config()
-const getenv = require('getenv') 
 const auth_token = process.env.TOKEN
 
 // Configure logger settings
@@ -31,12 +30,6 @@ bot.on('message', function (user, userID, channelID, message, event) {
 // Our bot needs to know if it will execute a command
 // It will listen for messages that will start with `!`
 console.log('event: ', event)
-console.log('here is the channel id', channelID)
-// permissions int: 277025393664
-if (channelID == '1024734988660396133/1024734989226610743') {
-    console.log('this is the general channel of the server')
-}
-
 if (message.substring(0, 1) == '!') {
     let args = message.substring(1).split(' ');
     let cmd = args[0].toLowerCase();
@@ -106,7 +99,6 @@ if (message.substring(0, 1) == '!') {
                 });
             }
         break;
-        // Just add any case commands if you want to...
      }
  }
 });
